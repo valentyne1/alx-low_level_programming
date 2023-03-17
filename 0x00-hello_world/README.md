@@ -1,2 +1,1 @@
-#!/bin/bash/
-C language projects
+0x00-hello_world readme file
