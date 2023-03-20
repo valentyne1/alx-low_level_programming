@@ -18,11 +18,10 @@ if (a != b && b > a)
 putchar(a);
 putchar(b);
 putchar(',');
+putchar(' ');
 }
 }
 }
-
-putchar('\n');
 
 return (0);
 }
