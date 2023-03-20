@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints "Progamming is like building a multilingual puzzle, followed by a new line.
+ * main - prints "Progamming is like building a multilingual 
+ * puzzle, followed by a new line.
  * Return: Always 0.
  */
 
