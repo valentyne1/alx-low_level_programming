@@ -11,12 +11,11 @@
 
 void print_numbers(void)
 {
-	int c;
-	void _putchar();
+	int d;
 
-	for (c = 48; c <= 57; c++)
+	for (d = 48; d <= 57; d++)
 	{
-		_putchar(c);
+		_putchar(d);
 	}
 	_putchar('\n');
 }
