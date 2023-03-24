@@ -1,23 +1,17 @@
 #include "main.h"
 
 /**
- * print_line - Entry point
- *
- * @n: number of times
- *
+ * print_line - prints a line
+ * @n: number of times the '\' char is printed
+ * Description: Can only use _putchar to print
  */
 void print_line(int n)
 {
-	char c = '_';
+	int c;
 
-	if
-		(n  <= 0)
+	for (c = 0; c < n; c++)
 	{
-		_putchar('\n');
+		_putchar('_');
 	}
-	else if
-		(n > 0 &&  n++)
-		{
-		_putchar(c++);
-		}
+	_putchar('\n');
 }
