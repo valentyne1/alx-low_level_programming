@@ -11,7 +11,7 @@
 void print_numbers(void)
 {
 int f;
-for (f = 48; f <= 57; f++)
+for (f = 0; f <= 9; f++)
 {
 if (f != 2 && f != 4)
 {
