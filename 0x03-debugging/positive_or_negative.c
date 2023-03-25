@@ -5,6 +5,7 @@
 /**
 * main - A test c file
 * positive_or_negative - Entry point
+* @i: parameter
 * Return: Always 0 (Success)
 */
 
