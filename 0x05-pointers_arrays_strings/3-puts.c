@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * _puts - Entry point
@@ -8,10 +7,9 @@
 
 void _puts(char *str)
 {
-	char yd;
-	
-	if (str == yd)
+	while (*str != '\0')
 	{
-	_puts(yd);
+		_putchar(*str++);
 	}
+	_putchar('\n');
 }
