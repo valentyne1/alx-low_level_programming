@@ -18,8 +18,11 @@ if (a != b && b > a)
 {
 putchar(a);
 putchar(b);
+if (a != 53 || b != 54)
+{
 putchar(',');
 putchar(' ');
+}
 }
 }
 }

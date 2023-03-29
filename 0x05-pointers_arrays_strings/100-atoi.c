@@ -8,23 +8,11 @@
  */
 int _atoi(char *s)
 {
-	int j;
-	char c;
+	int j = 1;
+	int v = 0;
 
-	j = s[0];
-	c = *s;
+	if((s[v] != '\0' && ++v) && (s[v] != '\0' && --v))
+	j = j * 10 + s[v] - '0';
 
-	if (j == 0 && j >= 9)
-	{
-		for(c = j; c != '\0'; c++)
-		{
-	printf("%d", j);
-	}
-	}
-	else
-	{
-		printf("0");
-		printf("\n");
-	}
-	return (0);
+	return j;
 }

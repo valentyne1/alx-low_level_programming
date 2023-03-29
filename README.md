@@ -1,2 +1,2 @@
 #!/bin/bash
-Variables
+More on pointers and arrays
