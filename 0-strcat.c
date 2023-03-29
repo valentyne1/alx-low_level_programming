@@ -20,7 +20,5 @@ char *_strcat(char *dest, char *src)
 	{
 		dest[l1 + j] = src[j];
 	}
-	/**printf("%s", dest);
-	printf("\n"); */
 	return (dest);
 }
