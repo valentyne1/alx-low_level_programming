@@ -3,7 +3,7 @@
 /**
  * _strchr - function that locates a character
  * @s: the pointer
- * @c the character
+ * @c: the character
  * Return: Always a pointer
  */
 char *_strchr(char *s, char c)
